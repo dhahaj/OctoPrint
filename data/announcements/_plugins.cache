@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OctoPrint Plugin Repository</title>
+    <description>The official OctoPrint Plugin Repository</description>
+    <link>http://plugins.octoprint.org/</link>
+    <atom:link href="https://plugins.octoprint.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 07 Nov 2018 10:22:18 +0000</pubDate>
+    <lastBuildDate>Wed, 07 Nov 2018 10:22:18 +0000</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
+    
+      <item>
+        <title>Auto bed leveling expert</title>
+        <description>
+          <![CDATA[
+            Marlin auto bed leveling control, mesh correction, and z probe handling
+            <p><img src="https://plugins.octoprint.org/assets/img/repo-600x400.png"></p>
+            
+          ]]>
+        </description>
+        <pubDate>
+Thu, 04 Oct 2018 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/ABL_Expert/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/ABL_Expert/</guid>
+        
+        <category>probe</category>
+        
+        <category>leveling</category>
+        
+        <category>bilinear</category>
+        
+        <category>auto bed leveling</category>
+        
+        <category>abl</category>
+        
+        <category>marlin</category>
+        
+      </item>
+    
+      <item>
+        <title>OctoPrint-Nexmonotifier</title>
+        <description>
+          <![CDATA[
+            Octoprint plugin for print completion notifications using Nexmo SMS gateway
+            <p><img src="url of a featured image for your plugin, /assets/img/..."></p>
+          ]]>
+        </description>
+        <pubDate>
+Tue, 02 Oct 2018 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/nexmonotifier/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/nexmonotifier/</guid>
+        
+        <category>notification</category>
+        
+        <category>SMS</category>
+        
+        <category>Text message</category>
+        
+      </item>
+    
+      <item>
+        <title>OctoPrint-GitFiles</title>
+        <description>
+          <![CDATA[
+            Use a github repository for keeping your OctoPrint Files collection up-to-date.
+            <p><img src="https://user-images.githubusercontent.com/15971213/45835939-45777700-bcc0-11e8-80c6-2bc31e08f3ec.png"></p>
+          ]]>
+        </description>
+        <pubDate>
+Sat, 29 Sep 2018 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/gitfiles/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/gitfiles/</guid>
+        
+        <category>change management</category>
+        
+        <category>source control</category>
+        
+        <category>github</category>
+        
+        <category>git</category>
+        
+        <category>file manager</category>
+        
+      </item>
+    
+      <item>
+        <title>OctoPrint_AutoRemote</title>
+        <description>
+          <![CDATA[
+            A quick Autoremote/Tasker plugin for OctoPrint
+            <p><img src="https://plugins.octoprint.org/assets/img/plugins/OctoAutoremote/settings.png"></p>
+          ]]>
+        </description>
+        <pubDate>
+Fri, 28 Sep 2018 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/OctoAutoremote/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/OctoAutoremote/</guid>
+        
+        <category>android</category>
+        
+        <category>tasker</category>
+        
+        <category>autoremote</category>
+        
+        <category>autoapps</category>
+        
+      </item>
+    
+      <item>
+        <title>Project Kronos Data Collector</title>
+        <description>
+          <![CDATA[
+            Help build the Project Kronos print-failure autodetection neural network
+            <p><img src="https://plugins.octoprint.org/assets/img/repo-600x400.png"></p>
+            
+          ]]>
+        </description>
+        <pubDate>
+Wed, 26 Sep 2018 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/kronos_data_collector/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/kronos_data_collector/</guid>
+        
+        <category>dataset</category>
+        
+        <category>data</category>
+        
+        <category>Kronos</category>
+        
+        <category>neural</category>
+        
+        <category>network</category>
+        
+      </item>
+    
+      <item>
+        <title>OctoPrint-WemoSwitch</title>
+        <description>
+          <![CDATA[
+            Plugin to control Belkin Wemo devices from OctoPrint web interface.
+            <p><img src="https://plugins.octoprint.org/assets/img/plugins/wemoswitch/screenshot_on.png"></p>
+          ]]>
+        </description>
+        <pubDate>
+Tue, 18 Sep 2018 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/wemoswitch/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/wemoswitch/</guid>
+        
+        <category>Belkin</category>
+        
+        <category>Wemo</category>
+        
+        <category>Smartplug</category>
+        
+        <category>Power</category>
+        
+      </item>
+    
+      <item>
+        <title>M73 ETA Override</title>
+        <description>
+          <![CDATA[
+            Plugin that overrides OctoPrint ETA to values from last M73 gcode sent to the printer
+            <p><img src="https://plugins.octoprint.org/assets/img/repo-600x400.png"></p>
+            
+          ]]>
+        </description>
+        <pubDate>
+Tue, 18 Sep 2018 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/m73etaoverride/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/m73etaoverride/</guid>
+        
+        <category>progress</category>
+        
+        <category>eta</category>
+        
+        <category>estimation</category>
+        
+        <category>m73</category>
+        
+      </item>
+    
+      <item>
+        <title>OctoPrint-ProgressBasedOnTime</title>
+        <description>
+          <![CDATA[
+            Replace file based progression by time based progression
+            <p><img src="https://plugins.octoprint.org/assets/img/repo-600x400.png"></p>
+            
+          ]]>
+        </description>
+        <pubDate>
+Tue, 18 Sep 2018 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/ProgressBasedOnTime/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/ProgressBasedOnTime/</guid>
+        
+        <category>progress</category>
+        
+        <category>analysis</category>
+        
+        <category>estimation</category>
+        
+        <category>estimator</category>
+        
+        <category>print time</category>
+        
+        <category>time</category>
+        
+      </item>
+    
+      <item>
+        <title>Filament Sensor NG</title>
+        <description>
+          <![CDATA[
+            A filament monitor that pauses the print when your filament runs out and lets you restart it.
+            <p><img src="https://plugins.octoprint.org/assets/img/repo-600x400.png"></p>
+            
+          ]]>
+        </description>
+        <pubDate>
+Mon, 17 Sep 2018 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/filament_sensor_ng/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/filament_sensor_ng/</guid>
+        
+        <category>filament</category>
+        
+        <category>sensor</category>
+        
+      </item>
+    
+      <item>
+        <title>OctoKlipper</title>
+        <description>
+          <![CDATA[
+            A plugin for a better integration of Klipper into OctoPrint.
+            <p><img src="https://plugins.octoprint.org/assets/img/plugins/klipper/message-log.png"></p>
+          ]]>
+        </description>
+        <pubDate>
+Tue, 21 Aug 2018 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/klipper/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/klipper/</guid>
+        
+        <category>klipper, firmware, control, monitor</category>
+        
+      </item>
+    
+  </channel>
+</rss>

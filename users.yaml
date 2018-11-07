@@ -1,0 +1,8 @@
+dhahaj:
+  active: true
+  apikey: 888C92DD54F244D8BCE50B82CD527C42
+  password: 64224efd9df95581e66e820bd05383a6c3bcb780828f8d84d77b589db6bd50c58f9adb22d3506f99e6cc878ba9f4012ae6e3818a874c56eadc453d75b4f7c180
+  roles:
+  - user
+  - admin
+  settings: {}

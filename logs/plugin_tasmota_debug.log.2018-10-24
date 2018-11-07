@@ -1,0 +1,273 @@
+[2018-10-22 06:23:35,137] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 06:23:35,140] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 06:23:35,142] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 06:23:35,222] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-22 06:23:35,223] DEBUG: 192.168.1.50 index  is ON
+[2018-10-22 13:51:40,972] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 13:51:40,974] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 13:51:40,975] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 13:51:41,054] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-22 13:51:41,055] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-22 13:52:02,828] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOn', u'idx': u'1'}
+[2018-10-22 13:52:02,830] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 13:52:02,831] DEBUG: Turning on 192.168.1.50 index .
+[2018-10-22 13:52:02,866] DEBUG: Response: {u'POWER': u'ON'}
+[2018-10-22 13:52:12,211] DEBUG: {u'command': u'disconnectPrinter'}
+[2018-10-22 13:52:12,212] DEBUG: Disconnecting printer.
+[2018-10-22 13:52:12,262] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOff', u'idx': u'1'}
+[2018-10-22 13:52:12,264] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 13:52:12,266] DEBUG: Turning off 192.168.1.50 index .
+[2018-10-22 13:52:12,392] DEBUG: Response: {u'POWER': u'OFF'}
+[2018-10-22 13:52:14,368] DEBUG: {u'command': u'connectPrinter'}
+[2018-10-22 13:52:14,369] DEBUG: Connecting printer.
+[2018-10-22 14:58:39,031] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 14:58:39,032] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 14:58:39,034] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 14:58:39,126] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-22 14:58:39,127] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-22 14:58:54,893] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOn', u'idx': u'1'}
+[2018-10-22 14:58:54,894] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 14:58:54,896] DEBUG: Turning on 192.168.1.50 index .
+[2018-10-22 14:58:54,994] DEBUG: Response: {u'POWER': u'ON'}
+[2018-10-22 14:59:04,894] DEBUG: {u'command': u'connectPrinter'}
+[2018-10-22 14:59:04,895] DEBUG: Connecting printer.
+[2018-10-22 15:05:12,964] DEBUG: {u'command': u'disconnectPrinter'}
+[2018-10-22 15:05:12,965] DEBUG: Disconnecting printer.
+[2018-10-22 15:05:13,046] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOff', u'idx': u'1'}
+[2018-10-22 15:05:13,048] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 15:05:13,049] DEBUG: Turning off 192.168.1.50 index .
+[2018-10-22 15:05:13,271] DEBUG: Response: {u'POWER': u'OFF'}
+[2018-10-22 16:37:36,598] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 16:37:36,599] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 16:37:36,601] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 16:37:36,631] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-22 16:37:36,632] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-22 16:50:20,619] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOn', u'idx': u'1'}
+[2018-10-22 16:50:20,620] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 16:50:20,622] DEBUG: Turning on 192.168.1.50 index .
+[2018-10-22 16:50:20,739] DEBUG: Response: {u'POWER': u'ON'}
+[2018-10-22 16:50:30,618] DEBUG: {u'command': u'connectPrinter'}
+[2018-10-22 16:50:30,619] DEBUG: Connecting printer.
+[2018-10-22 18:29:24,532] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 18:29:24,533] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 18:29:24,535] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 18:29:24,572] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-22 18:29:24,573] DEBUG: 192.168.1.50 index  is ON
+[2018-10-22 19:11:55,305] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 19:11:55,306] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 19:11:55,309] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 19:11:55,408] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-22 19:11:55,410] DEBUG: 192.168.1.50 index  is ON
+[2018-10-22 19:17:15,851] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 19:17:15,852] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 19:17:15,854] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 19:17:15,933] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-22 19:17:15,935] DEBUG: 192.168.1.50 index  is ON
+[2018-10-22 21:15:02,829] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 21:15:02,830] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 21:15:02,832] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 21:15:02,856] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-22 21:15:02,857] DEBUG: 192.168.1.50 index  is ON
+[2018-10-22 22:54:14,075] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 22:54:14,076] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 22:54:14,078] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 22:54:14,174] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-22 22:54:14,175] DEBUG: 192.168.1.50 index  is ON
+[2018-10-22 23:02:20,548] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 23:02:20,549] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 23:02:20,551] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 23:02:20,581] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-22 23:02:20,583] DEBUG: 192.168.1.50 index  is ON
+[2018-10-22 23:10:31,459] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 23:10:31,460] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 23:10:31,462] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 23:10:31,558] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-22 23:10:31,559] DEBUG: 192.168.1.50 index  is ON
+[2018-10-22 23:55:59,036] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-22 23:55:59,038] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 23:55:59,039] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-22 23:55:59,157] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-22 23:55:59,158] DEBUG: 192.168.1.50 index  is ON
+[2018-10-22 23:56:13,511] DEBUG: {u'command': u'disconnectPrinter'}
+[2018-10-22 23:56:13,512] DEBUG: Disconnecting printer.
+[2018-10-22 23:56:13,549] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOff', u'idx': u'1'}
+[2018-10-22 23:56:13,549] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-22 23:56:13,551] DEBUG: Turning off 192.168.1.50 index .
+[2018-10-22 23:56:13,595] DEBUG: Response: {u'POWER': u'OFF'}
+[2018-10-23 00:28:36,573] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 00:28:36,573] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 00:28:36,574] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 00:28:36,597] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 00:28:36,597] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 01:35:44,886] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 01:35:44,887] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 01:35:44,889] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 01:35:44,920] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 01:35:44,921] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 01:55:28,279] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 01:55:28,281] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 01:55:28,282] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 01:55:28,389] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 01:55:28,390] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 01:58:12,853] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 01:58:12,854] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 01:58:12,856] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 01:58:12,900] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 01:58:12,901] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 11:56:27,532] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 11:56:27,534] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 11:56:27,535] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 11:56:27,565] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 11:56:27,566] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 12:18:57,790] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 12:18:57,791] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 12:18:57,793] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 12:18:57,852] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 12:18:57,853] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 14:23:26,686] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 14:23:26,687] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 14:23:26,689] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 14:23:26,762] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 14:23:26,763] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 14:25:19,431] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 14:25:19,432] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 14:25:19,434] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 14:25:19,506] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 14:25:19,507] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 14:38:28,714] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 14:38:28,716] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 14:38:28,717] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 14:38:28,825] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 14:38:28,826] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 14:59:25,243] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 14:59:25,244] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 14:59:25,245] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 14:59:25,306] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 14:59:25,307] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 15:15:49,764] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 15:15:49,765] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 15:15:49,766] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 15:15:49,901] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 15:15:49,902] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 15:16:12,799] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 15:16:12,799] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 15:16:12,800] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 15:16:12,838] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 15:16:12,839] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 15:19:09,626] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOn', u'idx': u'1'}
+[2018-10-23 15:19:09,627] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 15:19:09,628] DEBUG: Turning on 192.168.1.50 index .
+[2018-10-23 15:19:09,687] DEBUG: Response: {u'POWER': u'ON'}
+[2018-10-23 15:19:16,681] DEBUG: {u'command': u'connectPrinter'}
+[2018-10-23 15:19:16,683] DEBUG: Connecting printer.
+[2018-10-23 20:06:11,777] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 20:06:11,778] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 20:06:11,780] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 20:06:11,820] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-23 20:06:11,821] DEBUG: 192.168.1.50 index  is ON
+[2018-10-23 21:03:49,695] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 21:03:49,697] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 21:03:49,699] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 21:03:49,835] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 21:03:49,837] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 21:19:34,775] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 21:19:34,776] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 21:19:34,777] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 21:19:34,802] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 21:19:34,803] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 21:46:03,706] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 21:46:03,707] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 21:46:03,707] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 21:46:03,773] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 21:46:03,774] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 21:57:03,604] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 21:57:03,616] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 21:57:03,617] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 21:57:03,651] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 21:57:03,651] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 22:42:17,042] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 22:42:17,042] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 22:42:17,044] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 22:42:17,114] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 22:42:17,114] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 22:51:17,298] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 22:51:17,298] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 22:51:17,299] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 22:51:17,387] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 22:51:17,388] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 22:51:49,953] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 22:51:49,954] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 22:51:49,955] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 22:51:50,052] DEBUG: 192.168.1.50 index  response: {"POWER":"OFF"}
+[2018-10-23 22:51:50,053] DEBUG: 192.168.1.50 index  is OFF
+[2018-10-23 22:58:12,773] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOn', u'idx': u'1'}
+[2018-10-23 22:58:12,774] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 22:58:12,774] DEBUG: Turning on 192.168.1.50 index .
+[2018-10-23 22:58:12,833] DEBUG: Response: {u'POWER': u'ON'}
+[2018-10-23 22:58:21,807] DEBUG: {u'command': u'connectPrinter'}
+[2018-10-23 22:58:21,809] DEBUG: Connecting printer.
+[2018-10-23 22:59:38,302] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOff', u'idx': u'1'}
+[2018-10-23 22:59:38,304] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 22:59:38,305] DEBUG: Turning off 192.168.1.50 index .
+[2018-10-23 22:59:38,447] DEBUG: Response: {u'POWER': u'OFF'}
+[2018-10-23 22:59:45,554] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOn', u'idx': u'1'}
+[2018-10-23 22:59:45,555] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 22:59:45,557] DEBUG: Turning on 192.168.1.50 index .
+[2018-10-23 22:59:45,609] DEBUG: Response: {u'POWER': u'ON'}
+[2018-10-23 23:00:17,799] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOff', u'idx': u'1'}
+[2018-10-23 23:00:17,800] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 23:00:17,802] DEBUG: Turning off 192.168.1.50 index .
+[2018-10-23 23:00:17,866] DEBUG: Response: {u'POWER': u'OFF'}
+[2018-10-23 23:04:08,500] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOn', u'idx': u'1'}
+[2018-10-23 23:04:08,501] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 23:04:08,503] DEBUG: Turning on 192.168.1.50 index .
+[2018-10-23 23:04:08,560] DEBUG: Response: {u'POWER': u'ON'}
+[2018-10-23 23:04:30,748] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 23:04:30,749] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 23:04:30,750] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 23:04:31,622] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-23 23:04:31,623] DEBUG: 192.168.1.50 index  is ON
+[2018-10-23 23:45:06,405] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOff', u'idx': u'1'}
+[2018-10-23 23:45:06,406] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 23:45:06,408] DEBUG: Turning off 192.168.1.50 index .
+[2018-10-23 23:45:06,434] DEBUG: Response: {u'POWER': u'OFF'}
+[2018-10-23 23:46:12,851] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOn', u'idx': u'1'}
+[2018-10-23 23:46:12,868] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 23:46:12,874] DEBUG: Turning on 192.168.1.50 index .
+[2018-10-23 23:46:13,001] DEBUG: Response: {u'POWER': u'ON'}
+[2018-10-23 23:46:56,149] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 23:46:56,150] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 23:46:56,151] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 23:46:56,215] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-23 23:46:56,215] DEBUG: 192.168.1.50 index  is ON
+[2018-10-23 23:57:23,774] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-23 23:57:23,775] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-23 23:57:23,776] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-23 23:57:23,834] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-23 23:57:23,834] DEBUG: 192.168.1.50 index  is ON
+[2018-10-24 00:01:31,673] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'checkStatus', u'idx': u'1'}
+[2018-10-24 00:01:31,674] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-24 00:01:31,675] DEBUG: Checking status of 192.168.1.50 index .
+[2018-10-24 00:01:31,762] DEBUG: 192.168.1.50 index  response: {"POWER":"ON"}
+[2018-10-24 00:01:31,763] DEBUG: 192.168.1.50 index  is ON
+[2018-10-24 00:01:47,119] DEBUG: {u'username': u'admin', u'ip': u'192.168.1.50', u'password': u'', u'command': u'turnOff', u'idx': u'1'}
+[2018-10-24 00:01:47,120] DEBUG: Using authentication for 192.168.1.50.
+[2018-10-24 00:01:47,122] DEBUG: Turning off 192.168.1.50 index .
+[2018-10-24 00:01:47,227] DEBUG: Response: {u'POWER': u'OFF'}
+[2018-10-24 14:04:27,498] ERROR: Invalid ip or unknown error connecting to 192.168.1.50.
+Traceback (most recent call last):
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint_tasmota/__init__.py", line 143, in check_status
+    webresponse = urllib2.urlopen("http://" + plugip + "/cm?user=" + username + "&password=" + password + "&cmnd=Power" + str(plugidx)).read()
+  File "/usr/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 113] No route to host>

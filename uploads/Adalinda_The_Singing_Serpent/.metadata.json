@@ -1,0 +1,30 @@
+{
+    "loubie_adalinda_dragon.stl": {
+        "hash": "696d09019638f422c42032322edbf65d15b9b8c3"
+    },
+    "loubie_adalinda_dragon_decimated_0.2mm_PLA_MK3.gcode": {
+        "hash": "ff5d41d1ced89ebcee09d9edf28992203174d3ea",
+        "analysis": {
+            "estimatedPrintTime": 28621.58801315653,
+            "printingArea": {
+                "maxZ": 147.202,
+                "minX": 0.0,
+                "maxX": 177.223,
+                "maxY": 159.269,
+                "minY": -3.0,
+                "minZ": 0.0
+            },
+            "dimensions": {
+                "width": 177.223,
+                "depth": 162.269,
+                "height": 147.202
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 87.11694239298791,
+                    "length": 36219.015859973006
+                }
+            }
+        }
+    }
+}

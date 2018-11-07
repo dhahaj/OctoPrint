@@ -1,0 +1,30 @@
+{
+    "MK3ToolHolder_v7.stl": {
+        "hash": "5e87f249c3aeb72c603366bed846c4d5c602add2"
+    },
+    "MK3ToolHolder_v7_0.2mm_PLA_MK3.gcode": {
+        "hash": "e0aa54851855803a6b44f69c7732720c70006a97",
+        "analysis": {
+            "estimatedPrintTime": 15512.198673624192,
+            "printingArea": {
+                "maxZ": 70.802,
+                "minX": 0.0,
+                "maxX": 178.0,
+                "maxY": 157.317,
+                "minY": -3.0,
+                "minZ": 0.0
+            },
+            "dimensions": {
+                "width": 178.0,
+                "depth": 160.317,
+                "height": 70.802
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 61.92406604305393,
+                    "length": 25745.03498997817
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+2018-10-30 22:21:48,963   /home/pi/oprint/bin/python2 -m pip uninstall --yes Octolapse
+2018-10-30 22:21:51,515 > Uninstalling Octolapse-0.3.1:
+2018-10-30 22:21:51,516 > Successfully uninstalled Octolapse-0.3.1
+2018-10-30 22:22:04,784   /home/pi/oprint/bin/python2 -m pip uninstall --yes TouchUI
+2018-10-30 22:22:07,334 > Uninstalling TouchUI-0.3.12:
+2018-10-30 22:22:07,335 > Successfully uninstalled TouchUI-0.3.12

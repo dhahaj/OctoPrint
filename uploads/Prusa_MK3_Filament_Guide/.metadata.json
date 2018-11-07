@@ -1,0 +1,30 @@
+{
+    "MK3_Filament_Guide_0.2mm_PLA_MK3.gcode": {
+        "hash": "28a2decec21446ffaf12cc95bc6ce074cd00622a",
+        "analysis": {
+            "estimatedPrintTime": 3044.7602718813805,
+            "printingArea": {
+                "maxZ": 20.001,
+                "minX": 0.0,
+                "maxX": 180.397,
+                "maxY": 153.238,
+                "minY": -3.0,
+                "minZ": 0.0
+            },
+            "dimensions": {
+                "width": 180.397,
+                "depth": 156.238,
+                "height": 20.001
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 11.759120336024449,
+                    "length": 4888.874130000249
+                }
+            }
+        }
+    },
+    "MK3_Filament_Guide_Update_v1.stl": {
+        "hash": "d65bd54f16869b817aee4ceeb24b6f780b512708"
+    }
+}

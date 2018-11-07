@@ -1,0 +1,521 @@
+accessControl:
+  salt: aHA2y1yk71F07YZuqROydgQKw0ikq8FT
+api:
+  key: 40D46D6B8E7747C19A1FF5F2C4B9C7F0
+appearance:
+  color: violet
+  components:
+    order:
+      tab:
+      - temperature
+      - control
+      - plugin_webcamtab
+      - terminal
+      - gcodeviewer
+      - plugin_multi_colors
+      - plugin_enclosure
+      - plugin_bedlevelvisualizer
+      - timelapse
+  name: Prusa i3 MK3
+  showFahrenheitAlso: true
+feature:
+  modelSizeDetection: false
+gcodeViewer:
+  mobileSizeThreshold: 4194304
+  sizeThreshold: 31457280
+plugins:
+  CR10_Leveling:
+    back_left_x: '35'
+    back_left_y: '265'
+    back_right_x: '265'
+    back_right_y: '265'
+    front_left_x: '35'
+    front_left_y: '35'
+    front_right_x: '265'
+    front_right_y: '35'
+    nozzle_temp: '0'
+    wait_for_heat: false
+  GcodeEditor:
+    maxGcodeSize: 20MB
+  PrintTimeGenius:
+    analyzers:
+    - command: '"/home/pi/oprint/bin/python2" "/home/pi/oprint/lib/python2.7/site-packages/octoprint_PrintTimeGenius/analyzers/analyze_gcode_comments.py"
+        "{gcode}"'
+      description: All gcode analyzers (usually not as good as Marlin calc)
+      enabled: false
+    - command: '"/home/pi/oprint/bin/python2" "/home/pi/oprint/lib/python2.7/site-packages/octoprint_PrintTimeGenius/analyzers/analyze_progress.py"
+        marlin-calc "{gcode}" "{mcodes}"'
+      description: Marlin firmware simulation (replaces Octoprint built-in, faster
+        and more accurate)
+      enabled: false
+    - command: '"/home/pi/oprint/bin/python2" "/home/pi/oprint/lib/python2.7/site-packages/octoprint_PrintTimeGenius/analyzers/analyze_gcode_comments.py"
+        "{gcode}" --parsers slic3r_pe_print_time slic3r_pe_print_time_remaining'
+      description: Use Slic3r PE M73 time remaining
+      enabled: true
+    print_history:
+    - analysisFirstFilamentPrintTime: -11.0
+      analysisLastFilamentPrintTime: 4036.850513550303
+      analysisPrintTime: 4069.0
+      compensatedPrintTime: 4069.0
+      firstFilamentPrintTime: 105.04308319091797
+      lastFilamentPrintTime: 4170.324145078659
+      payload:
+        file: /home/pi/.octoprint/uploads/Desktop_Cable_Holder/VerifiedWorkDeskCableClip_0.2mm_PLA.gcode
+        filename: VerifiedWorkDeskCableClip_0.2mm_PLA.gcode
+        name: VerifiedWorkDeskCableClip_0.2mm_PLA.gcode
+        origin: local
+        path: Desktop_Cable_Holder/VerifiedWorkDeskCableClip_0.2mm_PLA.gcode
+        size: 1621625
+        time: 4201.38673210144
+      timestamp: 1541354580.999122
+    - analysisFirstFilamentPrintTime: 21.0
+      analysisLastFilamentPrintTime: 4079.0916488222697
+      analysisPrintTime: 4101.0
+      compensatedPrintTime: 4101.0
+      firstFilamentPrintTime: 147.77071809768677
+      lastFilamentPrintTime: 4228.337922096252
+      payload:
+        file: /home/pi/.octoprint/uploads/Desktop_Cable_Holder/VerifiedWorkDeskCableClip_0.2mm_PET.gcode
+        filename: VerifiedWorkDeskCableClip_0.2mm_PET.gcode
+        name: VerifiedWorkDeskCableClip_0.2mm_PET.gcode
+        origin: local
+        path: Desktop_Cable_Holder/VerifiedWorkDeskCableClip_0.2mm_PET.gcode
+        size: 1621638
+        time: 4291.370954036713
+      timestamp: 1540848723.912926
+    - analysisFirstFilamentPrintTime: 21.0
+      analysisLastFilamentPrintTime: 4079.0916488222697
+      analysisPrintTime: 4101.0
+      compensatedPrintTime: 4101.0
+      firstFilamentPrintTime: 132.9945571422577
+      lastFilamentPrintTime: 6491.909934997559
+      payload:
+        file: /home/pi/.octoprint/uploads/Desktop_Cable_Holder/VerifiedWorkDeskCableClip_0.2mm_PET.gcode
+        filename: VerifiedWorkDeskCableClip_0.2mm_PET.gcode
+        name: VerifiedWorkDeskCableClip_0.2mm_PET.gcode
+        origin: local
+        path: Desktop_Cable_Holder/VerifiedWorkDeskCableClip_0.2mm_PET.gcode
+        size: 1621638
+        time: 6596.322739124298
+      timestamp: 1540620004.361881
+    - analysisFirstFilamentPrintTime: -11.0
+      analysisLastFilamentPrintTime: 4036.850513550303
+      analysisPrintTime: 4069.0
+      compensatedPrintTime: 4069.0
+      firstFilamentPrintTime: 71.1046679019928
+      lastFilamentPrintTime: 4695.8313999176025
+      payload:
+        file: /home/pi/.octoprint/uploads/Desktop_Cable_Holder/VerifiedWorkDeskCableClip_0.2mm_PLA.gcode
+        filename: VerifiedWorkDeskCableClip_0.2mm_PLA.gcode
+        name: VerifiedWorkDeskCableClip_0.2mm_PLA.gcode
+        origin: local
+        path: Desktop_Cable_Holder/VerifiedWorkDeskCableClip_0.2mm_PLA.gcode
+        size: 1621625
+        time: 4732.996015071869
+      timestamp: 1540582732.892167
+    printer_config:
+    - M92 X100.00 Y100.00 Z400.00 E280.00
+    - M203 X172.00 Y172.00 Z12.00 E120.00
+    - M201 X960 Y960 Z200 E5000
+    - M207 F2700.00 S3.00 Z0.00
+    - M208 F480.00 S0.00
+    - M205 B0.00 E2.50 S0.00 T0.00 X10.00 Y10.00 Z0.40
+    - M221 S125
+    - M204 S1000" T1250.00
+    - M220 S100
+  _disabled:
+  - CR10_Leveling
+  - bedlevelingwizard
+  - cura
+  - touchui
+  - eeprom_marlin
+  - themeify
+  - stlviewer
+  - firmwareupdater
+  - eeprom_repetier
+  - webcamtab
+  - slicer
+  - slic3r
+  - multicam
+  announcements:
+    _config_version: 1
+    channels:
+      _blog:
+        read_until: 1538240400
+      _important:
+        read_until: 1521111600
+      _octopi:
+        read_until: 1527588900
+      _plugins:
+        read_until: 1538611200
+      _releases:
+        read_until: 1541502600
+  autocollapse:
+    initialTimeout: 10
+  bedlevelvisualizer:
+    command: G81 ?
+    mesh_timestamp: 10/31/2018, 9:15:09 AM
+    stored_mesh:
+    - - '-0.13239'
+      - '-0.02336'
+      - '0.07806'
+      - '0.17188'
+      - '0.25810'
+      - '0.33671'
+      - '0.40772'
+    - - '-0.08413'
+      - '0.03586'
+      - '0.14529'
+      - '0.24416'
+      - '0.33248'
+      - '0.41024'
+      - '0.47745'
+    - - '-0.03545'
+      - '0.08796'
+      - '0.19895'
+      - '0.29754'
+      - '0.38371'
+      - '0.45747'
+      - '0.51882'
+    - - '0.01364'
+      - '0.13293'
+      - '0.23905'
+      - '0.33201'
+      - '0.41179'
+      - '0.47840'
+      - '0.53185'
+    - - '0.06315'
+      - '0.17079'
+      - '0.26559'
+      - '0.34757'
+      - '0.41672'
+      - '0.47303'
+      - '0.51652'
+    - - '0.11307'
+      - '0.20152'
+      - '0.27857'
+      - '0.34423'
+      - '0.39849'
+      - '0.44136'
+      - '0.47284'
+    - - '0.16340'
+      - '0.22513'
+      - '0.27799'
+      - '0.32198'
+      - '0.35712'
+      - '0.38339'
+      - '0.40081'
+    stored_mesh_x:
+    - 0
+    - 36
+    - 72
+    - 108
+    - 143
+    - 179
+    - 215
+    stored_mesh_y:
+    - 0
+    - 36
+    - 72
+    - 108
+    - 143
+    - 179
+    - 215
+    stored_mesh_z_height: 200
+  cura:
+    cura_engine: /usr/local/bin/cura_engine
+  discovery:
+    publicPort: 80
+    upnpUuid: 0b7ac093-86da-4f25-b37b-f0a8631fa7b1
+  enclosure:
+    _config_version: 6
+    rpi_inputs:
+    - action_type: output_control
+      controlled_io: 1
+      controlled_io_set_value: low
+      ds18b20_serial: ''
+      edge: fall
+      filament_sensor_enabled: true
+      filament_sensor_timeout: 120
+      gpio_pin: '26'
+      index_id: 1
+      input_pull_resistor: input_pull_up
+      input_type: temperature_sensor
+      label: DHT11
+      printer_action: filament
+      temp_sensor_address: ''
+      temp_sensor_humidity: 0
+      temp_sensor_navbar: true
+      temp_sensor_temp: 0
+      temp_sensor_type: '11'
+      use_fahrenheit: false
+    rpi_outputs:
+    - active_low: false
+      alarm_set_temp: 0
+      auto_shutdown: true
+      auto_startup: true
+      controlled_io: 0
+      controlled_io_set_value: Low
+      default_duty_cycle: 0
+      default_neopixel_color: ''
+      duty_a: 0
+      duty_b: 0
+      duty_cycle: 0
+      gcode: ''
+      gpio_pin: '21'
+      gpio_status: 0
+      hide_btn_ui: false
+      index_id: 1
+      label: Ouput Pin 21
+      linked_temp_sensor: ''
+      microcontroller_address: 0
+      neopixel_brightness: 255
+      neopixel_color: rgb(0,0,0)
+      neopixel_count: 0
+      new_duty_cycle: ''
+      new_neopixel_color: ''
+      output_type: regular
+      pwm_frequency: 50
+      pwm_status: 50
+      pwm_temperature_linked: false
+      shell_script: ''
+      show_on_navbar: true
+      shutdown_on_failed: true
+      shutdown_time: 0
+      startup_time: 0
+      startup_with_server: false
+      temp_ctr_deadband: 0
+      temp_ctr_default_value: 0
+      temp_ctr_max_temp: 0
+      temp_ctr_new_set_value: ''
+      temp_ctr_set_value: 0
+      temp_ctr_type: heater
+      temperature_a: 0
+      temperature_b: 0
+      toggle_timer: true
+      toggle_timer_off: '1'
+      toggle_timer_on: '1'
+  firmwareupdater:
+    avrdude_avrmcu: m2560
+    avrdude_baudrate: ''
+    avrdude_programmer: ''
+    flash_method: avrdude
+  gitfiles:
+    initialized: true
+    url: https://github.com/dhahaj/octopi.git
+  multicam:
+    _config_version: 1
+    multicam_profiles:
+    - URL: /webcam/?action=stream
+      isButtonEnabled: false
+      name: Default
+  octobullet:
+    access_token: o.5cr5RJ4UyZx0rNCnhuITi7bIyNoBR5wV
+    push_channel: octoprinters
+  preheat:
+    enable_tool: false
+  slic3r:
+    debug_logging: true
+  softwareupdate:
+    _config_version: 6
+    check_providers:
+      BedLevelingWizard: bedlevelingwizard
+      CR10_Leveling: CR10_Leveling
+      GcodeEditor: GcodeEditor
+      PrintTimeGenius: PrintTimeGenius
+      Slic3r: slic3r
+      autocollapse: autocollapse
+      bedlevelvisualizer: bedlevelvisualizer
+      eeprom_repetier: eeprom_repetier
+      enclosure: enclosure
+      fanspeedslider: fanspeedslider
+      firmwareupdater: firmwareupdater
+      fullscreen: fullscreen
+      gcodebar: gcodebar
+      gitfiles: gitfiles
+      layerdisplay: layerdisplay
+      m84motoff: m84motoff
+      multi_colors: multi_colors
+      multicam: multicam
+      navbartemp: navbartemp
+      octobullet: octobullet
+      octolapse: octolapse
+      preheat: preheat
+      roomtemp: roomtemp
+      slicer: slicer
+      systemcommandeditor: eeprom_marlin
+      taborder: taborder
+      tasmota: tasmota
+      themeify: themeify
+      touchui: touchui
+      tplinksmartplug: tplinksmartplug
+      webcamtab: webcamtab
+      yamlpatcher: yamlpatcher
+  taborder:
+    _config_version: 3
+    tabs:
+    - icon: fa-thermometer-empty
+      icon_color: '#f51a1a'
+      icon_tooltip: ''
+      name: temperature
+      showtext: true
+    - icon: fa-arrows
+      icon_color: '#5b26fb'
+      icon_tooltip: ''
+      name: control
+      showtext: true
+    - icon: fa-video-camera
+      icon_color: '#f3b21f'
+      icon_tooltip: ''
+      name: plugin_webcamtab
+      showtext: true
+    - icon: fa-terminal
+      icon_color: '#16e9ad'
+      icon_tooltip: ''
+      name: terminal
+      showtext: true
+    - icon: fa-code
+      icon_color: '#000000'
+      icon_tooltip: ''
+      name: gcodeviewer
+      showtext: true
+    - icon: fa-paint-brush
+      icon_color: '#07b615'
+      icon_tooltip: ''
+      name: plugin_multi_colors
+      showtext: true
+    - icon: fa-archive
+      icon_color: '#ba1cd5'
+      icon_tooltip: Enclosure
+      name: plugin_enclosure
+      showtext: true
+    - icon: fa-bed
+      icon_color: '#574ddb'
+      icon_tooltip: Bed Level Visualization
+      name: plugin_bedlevelvisualizer
+      showtext: true
+    - icon: fa-play
+      icon_color: '#f7be6a'
+      icon_tooltip: Timelapse
+      name: timelapse
+      showtext: true
+  tasmota:
+    _config_version: 3
+    arrSmartplugs:
+    - autoConnect: false
+      autoConnectDelay: 10
+      autoDisconnect: false
+      autoDisconnectDelay: 0
+      btnColor: '#808080'
+      currentState: 'off'
+      displayWarning: false
+      gcodeEnabled: false
+      gcodeOffDelay: 0
+      gcodeOnDelay: 0
+      icon: icon-off
+      idx: '1'
+      ip: 192.168.1.50
+      label: Shelf
+      password: ''
+      sysCmdOff: false
+      sysCmdOffDelay: 0
+      sysCmdOn: false
+      sysCmdOnDelay: 0
+      sysRunCmdOff: ''
+      sysRunCmdOn: ''
+      username: admin
+      warnPrinting: true
+  themeify:
+    color:
+    - deletable: false
+      enabled: true
+      rule: background
+      selector: .navbar-inner
+      value: '#0000e1'
+    enabled: false
+    theme: material_ui_light
+  touchui:
+    automaticallyLoadResolution: false
+    automaticallyLoadTouch: false
+  tplinksmartplug:
+    _config_version: 6
+    arrSmartplugs:
+    - autoConnect: true
+      autoConnectDelay: 10
+      autoDisconnect: false
+      autoDisconnectDelay: 0
+      btnColor: '#808080'
+      countdownOffDelay: 0
+      countdownOnDelay: 0
+      currentState: 'off'
+      displayWarning: false
+      emeter: {}
+      gcodeEnabled: false
+      gcodeOffDelay: 0
+      gcodeOnDelay: 0
+      icon: icon-off
+      ip: 192.168.1.197
+      label: HS100
+      sysCmdOff: false
+      sysCmdOffDelay: 0
+      sysCmdOn: false
+      sysCmdOnDelay: 0
+      sysRunCmdOff: ''
+      sysRunCmdOn: ''
+      useCountdownRules: false
+      warnPrinting: false
+    pollingEnabled: true
+    pollingInterval: '5'
+printerProfiles:
+  default: prusa
+serial:
+  baudrate: 115200
+  logPositionOnCancel: true
+server:
+  commands:
+    serverRestartCommand: sudo service octoprint restart
+    systemRestartCommand: sudo shutdown -r now
+    systemShutdownCommand: sudo shutdown -h now
+  firstRun: false
+  onlineCheck:
+    enabled: true
+  pluginBlacklist:
+    enabled: true
+  secretKey: 9wgNZI91ISs0B3AFDBaVMUlZQk34yah5
+  seenWizards:
+    bedlevelvisualizer: null
+    corewizard: 3
+    cura: null
+slicing:
+  defaultProfiles:
+    cura: draft_quality
+    slic3r: config
+temperature:
+  cutoff: 8
+  profiles:
+  - bed: 85
+    extruder: 240
+    name: PETG
+  - bed: 65
+    extruder: 215
+    name: PLA
+  - bed: 100
+    extruder: 220
+    name: ABS
+  - bed: 65
+    extruder: 0
+    name: Bed Preheat
+  - bed: 0
+    extruder: 205
+    name: Extruder Preheat
+  sendAutomatically: true
+webcam:
+  ffmpeg: /usr/bin/avconv
+  snapshot: http://127.0.0.1:8080/?action=snapshot
+  stream: /webcam/?action=stream
+  timelapse:
+    fps: 30
+    options: {}
+    postRoll: 1
+    type: 'off'
+  watermark: false

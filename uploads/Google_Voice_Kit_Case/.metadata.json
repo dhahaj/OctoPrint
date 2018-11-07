@@ -1,0 +1,89 @@
+{
+    "Case_Middle_0.2mm_PLA_MK3.gcode": {
+        "hash": "345cc34a23e74778eca3a6cc3d43df3e0c369ea3",
+        "analysis": {
+            "estimatedPrintTime": 9121.74606976866,
+            "printingArea": {
+                "maxZ": 37.0,
+                "maxX": 134.223,
+                "maxY": 132.845,
+                "minX": 0.0,
+                "minY": -3.0,
+                "minZ": 0.0
+            },
+            "dimensions": {
+                "width": 134.223,
+                "depth": 135.845,
+                "height": 37.0
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 44.15459045978607,
+                    "length": 18357.34551999529
+                }
+            }
+        }
+    },
+    "Case_Middle.stl": {
+        "hash": "fca2aa8589a9349d31c0dc103ae122f2c9ecb438"
+    },
+    "Case_Bottom.stl": {
+        "hash": "42c809b4c51e94b62b70c8106667b4e7c123ae7c"
+    },
+    "Case_Bottom_0.2mm_PLA_MK3.gcode": {
+        "hash": "d9978e0835243c4af343db25ca85c67ecaf2bf66",
+        "analysis": {
+            "estimatedPrintTime": 11182.199900079395,
+            "printingArea": {
+                "maxZ": 49.6,
+                "maxX": 241.133,
+                "maxY": 129.119,
+                "minX": 0.0,
+                "minY": -3.0,
+                "minZ": 0.0
+            },
+            "dimensions": {
+                "width": 241.133,
+                "depth": 132.119,
+                "height": 49.6
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 54.77909267270948,
+                    "length": 22774.50024999377
+                }
+            }
+        }
+    },
+    "Case_Top.stl": {
+        "hash": "51fbd7e6610cb50f7bc0ca85c66670231d5f8c3b"
+    },
+    "Google-Voice-Base.stl": {
+        "hash": "324a918b20b0fa9fe01cf8e1ca610ddd5d4eada9"
+    },
+    "Case_Top_0.2mm_PLA_MK3.gcode": {
+        "hash": "16de313cd338f738a84f44f66b6e0dde04bb7fa2",
+        "analysis": {
+            "estimatedPrintTime": 11937.946911655376,
+            "printingArea": {
+                "maxZ": 39.6,
+                "minX": 0.0,
+                "maxX": 135.304,
+                "maxY": 133.642,
+                "minY": -3.0,
+                "minZ": 0.0
+            },
+            "dimensions": {
+                "width": 135.304,
+                "depth": 136.642,
+                "height": 39.6
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 43.2054485048097,
+                    "length": 17962.738149989364
+                }
+            }
+        }
+    }
+}
