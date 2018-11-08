@@ -121,8 +121,8 @@ plugins:
     - M208 F480.00 S0.00
     - M205 B0.00 E2.50 S0.00 T0.00 X10.00 Y10.00 Z0.40
     - M221 S125
+    - M220 S70
     - M204 S1000" T1250.00
-    - M220 S100
   _disabled:
   - CR10_Leveling
   - bedlevelingwizard
@@ -514,8 +514,9 @@ webcam:
   snapshot: http://127.0.0.1:8080/?action=snapshot
   stream: /webcam/?action=stream
   timelapse:
-    fps: 30
-    options: {}
+    fps: 25
+    options:
+      interval: 1
     postRoll: 1
-    type: 'off'
+    type: timed
   watermark: false
